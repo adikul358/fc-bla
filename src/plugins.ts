@@ -8,15 +8,29 @@ import FastifyMultipart from '@fastify/multipart';
 export default function registerPlugins(fastify: FastifyInstance) {
   fastify.register(FastifyCORS, {
     origin: (origin, cb) => {
-      if (process.env.NODE_ENV !== 'production') return cb(null, true);
+    const isDev = process.env.NODE_ENV !== 'production';
 
-      const hostname = origin ? new URL(origin).hostname : '';
-      if (hostname === 'localhost' || hostname === process.env.HOST_URL) return cb(null, true);
+    // Allow all in development
+    if (isDev || !origin) {
+      return cb(null, true);
+    }
 
-      cb(new Error('CORS: Origin Not allowed'), false);
-    },
-    methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
-    credentials: true,
+    try {
+      const allowedRoot = 'yourdomain.com'; // ← Set this once, hardcoded or computed
+      const hostname = new URL(origin).hostname;
+
+      // Allow any subdomain of yourdomain.com, or yourdomain.com itself
+      if (hostname === allowedRoot || hostname.endsWith(`.${allowedRoot}`)) {
+        return cb(null, true);
+      }
+
+      return cb(new Error(`CORS: Origin ${origin} not allowed`), false);
+    } catch (err) {
+      return cb(new Error('CORS: Invalid origin'), false);
+    }
+  },
+  methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
+  credentials: true,
   });
 
   fastify.register(FastifyCookie);
