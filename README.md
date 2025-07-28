@@ -8,7 +8,7 @@
 
 ### Usage
 
-You can use the API hosted on [fc-bla.projects.adikul.dev](fblt.projects.adikul.dev) with any API client. An HAR (HTTP Archive Format) file with test queries is included.
+You can use the API hosted on https://fblt.projects.adikul.dev (if it is not working, https://fc-bla-720236446091.asia-east1.run.app) with any API client. An HAR (HTTP Archive Format) file with test queries is included.
 
 <img width="3336" height="2158" alt="Screenshot 2025-07-28 at 11 45 25" src="https://github.com/user-attachments/assets/80073069-b3d8-4324-a105-97636b331f6b" />
 <img width="3336" height="2158" alt="Screenshot 2025-07-28 at 11 45 38" src="https://github.com/user-attachments/assets/dfe788cb-1992-4bb7-9847-2000106dd572" />
