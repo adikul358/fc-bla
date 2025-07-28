@@ -9,8 +9,11 @@
 ### Usage
 
 You can use the API hosted on [fc-bla.projects.adikul.dev](fblt.projects.adikul.dev) with any API client. An HAR (HTTP Archive Format) file with test queries is included.
- 
-SS
+
+<img width="3336" height="2158" alt="Screenshot 2025-07-28 at 11 46 04" src="https://github.com/user-attachments/assets/5bd1ee6b-eaf6-4843-9649-329eacee815b" />
+<img width="3336" height="2158" alt="Screenshot 2025-07-28 at 11 45 54" src="https://github.com/user-attachments/assets/0a5e93c0-6725-414e-80e0-d4d65c416b59" />
+<img width="3336" height="2158" alt="Screenshot 2025-07-28 at 11 45 38" src="https://github.com/user-attachments/assets/dfe788cb-1992-4bb7-9847-2000106dd572" />
+<img width="3336" height="2158" alt="Screenshot 2025-07-28 at 11 45 25" src="https://github.com/user-attachments/assets/80073069-b3d8-4324-a105-97636b331f6b" />
 
 
 ### Setup
