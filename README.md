@@ -48,7 +48,7 @@ gcloud auth configure-docker
 
 Build container and push to registry
 ```
-docker build -t [REGION]-docker.pkg.dev/[PROJECT_ID]/[REPO_NAME]/[IMAGE_NAME]:[TAG] .
-docker push [REGION]-docker.pkg.dev/[PROJECT_ID]/[REPO_NAME]/[IMAGE_NAME]:[TAG]
-gcloud container images list --repository=gcr.io/[PROJECT_ID]
+docker build -t asia-east1-docker.pkg.dev/portfolio-454511/fc-bla/fc-bla:latest .
+docker push asia-east1-docker.pkg.dev/portfolio-454511/fc-bla/fc-bla:latest
+gcloud container images list --repository=fc-bla
 ```

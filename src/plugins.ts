@@ -11,7 +11,7 @@ export default function registerPlugins(fastify: FastifyInstance) {
       if (process.env.NODE_ENV !== 'production') return cb(null, true);
 
       const hostname = origin ? new URL(origin).hostname : '';
-      if (hostname === 'localhost' || hostname === process.env.VERCEL_URL) return cb(null, true);
+      if (hostname === 'localhost' || hostname === process.env.HOST_URL) return cb(null, true);
 
       cb(new Error('CORS: Origin Not allowed'), false);
     },
