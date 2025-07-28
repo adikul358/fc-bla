@@ -3,7 +3,7 @@
 ### Objectives
 1. `/api` endpoint returns a JSON array of the episode data of _The Last of Us_ season 2 (a show I am currently watching).
 2. `/signup`, `/signin`, `/signout` manage authentication flow using JWT session cookies.
-3. If logged in, `/api/me` returns the JSON array of episodes, including your ratings. Otherwise it redirects to `/api`
+3. If logged in, `/api/me` returns the JSON array of episodes, including your ratings.
 4. Users are stored in memory in an array, their passwords hashed with a salt using the `bcrypt` library
 
 ### Usage
