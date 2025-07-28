@@ -1,0 +1,58 @@
+[
+    {
+        "name": "Future Days",
+        "season": 2,
+        "number": 1,
+        "airdate": "2025-04-13",
+        "runtime": 62,
+        "summary": "<p>Five years after the events in Salt Lake City, a now 19-year-old Ellie makes a discovery while on patrol with her best friend Dina. Back in Jackson Hole, Joel seeks help to mend his relationship with Ellie.</p>"
+    },
+    {
+        "name": "Through the Valley",
+        "season": 2,
+        "number": 2,
+        "airdate": "2025-04-20",
+        "runtime": 60,
+        "summary": "<p>As a storm brews in the mountains, the people of Jackson Hole prepare for the worst amid increased sightings of Infected. Meanwhile, Abby weighs her options.</p>"
+    },
+    {
+        "name": "The Path",
+        "season": 2,
+        "number": 3,
+        "airdate": "2025-04-27",
+        "runtime": 60,
+        "summary": "<p>After Dina shares crucial information, Ellie prepares to petition the town council, even while she struggles with her deep emotional scars. On the outskirts of Seattle, a religious sect attempts to flee a war – raising questions on what lies ahead.</p>"
+    },
+    {
+        "name": "Day One",
+        "season": 2,
+        "number": 4,
+        "airdate": "2025-05-04",
+        "runtime": 60,
+        "summary": "<p>In 2018, Seattle FEDRA confronts an unexpected foe. Ten years later, Ellie and Dina find themselves in the middle of a bloody battle between the zealous Seraphites and a ruthless militia.</p>"
+    },
+    {
+        "name": "Feel Her Love",
+        "season": 2,
+        "number": 5,
+        "airdate": "2025-05-11",
+        "runtime": 50,
+        "summary": "<p>The WLF makes a dangerous discovery... at a great cost. Later, Ellie must decide whether to continue with her plan – and risk putting Dina in danger – or give up on her quest for justice.</p>"
+    },
+    {
+        "name": "The Price",
+        "season": 2,
+        "number": 6,
+        "airdate": "2025-05-18",
+        "runtime": 60,
+        "summary": "<p>Joel surprises Ellie for her birthday. As their rift continues to widen, Ellie prepares for a confrontation, while Joel makes a difficult choice out on patrol.</p>"
+    },
+    {
+        "name": "Convergence",
+        "season": 2,
+        "number": 7,
+        "airdate": "2025-05-25",
+        "runtime": 55,
+        "summary": "<p>As the Wolves and the Scars prepare for a battle that could potentially end their longstanding feud, Ellie's search draws her away from her friends and toward a devastating confrontation.</p>"
+    }
+]
